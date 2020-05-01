@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    font-size: 23px;
+    margin: 0;
+    margin-top: 10px;
+}
+.word1{
+    margin-left: 0;
+}
+.word2{
+    margin-left: 145px;
+}
+.word3{
+    margin-left: 170px;
+}
+.word4{
+    margin-left: 295px;
+}
+.word5{
+    margin-left: 370px;
+}
+.word6{
+    margin-left: 460px;
+}
+.word7{
+    margin-left: 550px;
+}
+.word8{
+    margin-left: 680px;
+}
+.word9{
+    margin-left: 750px;
+}
+.word10{
+    margin-left: 835px;
+}
+
+p:hover{
+    color: #ff6347;
+}
