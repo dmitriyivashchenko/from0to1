@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border: 5px solid #000;
+}
+
+div:hover{
+    transition: all 2s;
+    background-color: black;
+}
+
+.rect-1{
+    background-color: #808080;
+    width: 40%;
+    top: 252px;
+}
+
+.rect-2{
+    background-color: #ffc0cb;
+    width: 35%;
+    top: 202px;
+}
+
+.rect-3{
+    background-color: #0000ff;
+    width: 30%;
+    top: 152px;
+}
+
+.rect-4{
+    background-color: #007b00;
+    width: 25%;
+    top: 102px
+}
+
+.rect-5{
+    background-color: #ffff00;
+    width: 20%;
+    top: 52px;
+}
+
+.rect-6{
+    background-color: #ff0000;
+    width: 15%;
+    top: 2px
+}
