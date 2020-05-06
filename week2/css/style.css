@@ -6,6 +6,10 @@ html{
     box-sizing: inherit;
 }
 
+body{
+    font-family: 'Lato', sans-serif;
+}
+
 a{
     color: #000;
     text-decoration: none;
@@ -27,6 +31,7 @@ li{
 
 .header{
     background-color: #e8ebf1;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.07);
 }
 
 .header__inner{
@@ -39,7 +44,6 @@ li{
 .header__logo a{
     color: #2aacc8;
     font-size: 50px;
-    font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
 
@@ -140,3 +144,49 @@ li{
     background-color: #fff;
     transition: all .3s;
 }
+
+.slider{
+    background-color: #81e4ed;
+    padding: 19px 0 10px;
+}
+
+.slider__inner-item{
+    background-image: url(../images/slider-bg.jpg);
+    min-height: 440px;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.slider__item__title{
+    font-size: 50px;
+    color: #fff;
+    width: 300px;
+    margin-left: 60px;
+    font-weight: 700;
+    padding-top: 90px;
+}
+
+.slick-dots li button::before{
+    display: none;    
+}
+
+.slick-dots li button{
+    width: 14px;
+    height: 14px;
+    background-color: rgba(98, 98, 98, .5);
+    border-radius: 50%;  
+}
+
+.slick-dots li.slick-active button{
+    background-color: #e8ebf1;
+
+}
+
+.slick-dots li{
+    margin: 0 9px;
+    width: auto;
+    height: auto;
+
+}
+
