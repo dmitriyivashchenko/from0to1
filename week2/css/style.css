@@ -137,6 +137,7 @@ li{
     overflow: visible;
     opacity: 1;
     transition: all .3s;
+    z-index: 1;
 }
 .header__drop-down.drop-down:hover > a {
     color: #2aacc8;
@@ -190,3 +191,73 @@ li{
 
 }
 
+/**********************************************/
+
+.items{
+    background-color: #e8ebf1;
+    padding-top: 60px;
+    padding: 52px;
+}
+
+.items__inner{
+    display: flex ;
+    justify-content: space-between;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.item{
+    width: 225px;
+}
+
+.item__title{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 60px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.item__icons{
+    width: 40px;
+    height: 40px;
+    background-color: #2aacc8;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plane__icon{
+    margin-left: 5px;
+}
+
+
+.item__text{
+    font-size: 13px;
+    font-weight: 400; 
+    color: #363636;
+    margin-bottom: 25px;
+}
+
+.item__link{
+    padding-left: 15px;
+    font-size: 13px;
+    color: #2aacc8;
+    position: relative;
+}
+
+.item__link::before{
+    content: '';
+    position: absolute;
+    background-image: url(../images/icons/item-arrow.svg);
+    left: 0;
+    top: 5px;
+    width: 5px;
+    height: 7px;
+}
