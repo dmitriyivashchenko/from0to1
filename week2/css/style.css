@@ -96,7 +96,6 @@ p{
     height: 0;
     overflow: hidden;
     opacity: 0;
-
     position: absolute;
     width: 197px;
     background-color: #fff;
@@ -509,10 +508,12 @@ p{
 }
 
 .connect-icons{
-    max-width: 188px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 20px;
 
+}   
+.footer__info-conects{
+    width: 188px;
 }
