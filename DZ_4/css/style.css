@@ -15,6 +15,7 @@ a{
     text-decoration: none;
     color: #b9b9b9;
 }
+h3{ margin: 0;}
 ul{
     list-style: none;
     margin: 0;
@@ -107,11 +108,11 @@ p{
 .slider__item-text{
     position: absolute;
     max-width: 414px;
-    min-height: 123px;
     background-color: rgba(232, 102, 60, .8);
     bottom: 32px;
     left: 36px;
     color: #fff;
+    padding: 22px 19px;
 }
 
 .slider__item-text h3{
@@ -119,16 +120,13 @@ p{
     text-transform: uppercase;
     font-family: 'Bebas', sans-serif;
     font-weight: 400;
-    margin-top: 22px;
-    margin-bottom: 20px;
-    margin-left: 19px;
 }
 
 .slider__item-text p{
     font-size: 12px;
     font-family: 'HelveticaNeue', sans-serif;
     font-weight: normal;
-    margin-left: 19px;    
+    padding-top: 15px;
 }
 
 .slider__thumbnails{
@@ -249,22 +247,18 @@ p{
 }
 
 .resent-works__title{
-    display: inline;
     font-family: 'Bebas', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
     color: #e8603c;
+    background-image: url(../images/line-works.png);
 }
 
-.resent-works__title::after{
-    content: '';
-    background-image: url(../images/line-works.png) ;
-    min-height: 19px;
-    min-width: calc(100% - 132px);
-    top: 0;
-    right: 0;
-    position: absolute;
+.resent-works__title span{
+    display: inline-block;
+    padding-right: 25px;
+    background-color: #fff;
 }
 
 .resent-works__work{

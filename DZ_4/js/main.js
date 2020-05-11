@@ -10,15 +10,12 @@ $(function(){
     arrows: true,
     fade: false,
     asNavFor: '.slider__thumbnails',
-    infinite: true,
-    autoplay: true
+    autoplay: false
   });
   $('.slider__thumbnails').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 6,
+    // slidesToScroll: 12,
     asNavFor: '.slider__inner',
-    infinite: true,
     variableWidth: true,
     arrows: false,
     focusOnSelect: true

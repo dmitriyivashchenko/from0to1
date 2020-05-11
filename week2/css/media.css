@@ -1,0 +1,8 @@
+@media (max-width: 960px){
+    .header__menu-btn{
+        display: block;
+    }
+    .header__menu ul{
+        display: none;
+    }
+}
