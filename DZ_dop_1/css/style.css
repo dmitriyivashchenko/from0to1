@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1858af;
+    text-align: center;
+    color: #fff;
+}
+
+.head{
+    background-color: #a4acb7;
+    margin: 0 50px;
+    padding: 40px 0;
+}
+
+.navigation{
+    background-color: #c9435b;
+    margin: 20px 50px;
+}
+
+.aside{
+    background-color: #000;
+    margin-left: 50px;
+}
