@@ -41,6 +41,6 @@ $(function(){
       $(this).children('.drop-down__link').toggleClass('active');
     });
 
-    $('.header__drop-down.drop-down')
+    // $('.header__drop-down.drop-down')
   });
 
