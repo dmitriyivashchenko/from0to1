@@ -8,8 +8,9 @@
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="css/slick-theme.css">
       <link rel="stylesheet" href="css/slick.css">
-      <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/fonts.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/media.css">
       <title>JETRO</title>
    </head>
 
@@ -22,7 +23,13 @@
                      <span>JET</span>RO
                   </a>
                </div>
+               <div class="header__menu-btn">
+                  <div class="header__menu-row"></div>
+                  <div class="header__menu-row"></div>
+                  <div class="header__menu-row"></div>
+               </div>
                <nav class="header__menu">
+
                   <ul>
                      <!-- &nbsp; uses for adding one more space -->
                      <li><a class="header__link-active menu__home" href="#">Home</a></li>
@@ -39,6 +46,7 @@
          <div class="container">
             <div class="slider__inner">
                <div class="slider__item">
+                  <img src="images/slider-img1.jpg" alt="">
                   <div class="slider__item-text">
                      <h3>Slide One</h3>
                      <p>
@@ -48,6 +56,7 @@
                   </div>
                </div>
                <div class="slider__item">
+                  <img src="images/slider-img2.jpg" alt="">
                   <div class="slider__item-text">
                      <h3>Slide 2</h3>
                      <p>
@@ -57,6 +66,7 @@
                   </div>
                </div>
                <div class="slider__item">
+                  <img src="images/slider-img3.jpg" alt="">
                   <div class="slider__item-text">
                      <h3>Slide 3</h3>
                      <p>
@@ -66,6 +76,7 @@
                   </div>
                </div>
                <div class="slider__item">
+                  <img src="images/slider-img4.jpg" alt="">
                   <div class="slider__item-text">
                      <h3>Slide 4</h3>
                      <p>
@@ -75,6 +86,7 @@
                   </div>
                </div>
                <div class="slider__item">
+                  <img src="images/slider-img5.jpg" alt="">
                   <div class="slider__item-text">
                      <h3>Slide 5</h3>
                      <p>
@@ -84,6 +96,7 @@
                   </div>
                </div>
                <div class="slider__item">
+                  <img src="images/slider-img6.jpg" alt="">
                   <div class="slider__item-text">
                      <h3>Slide 6</h3>
                      <p>
@@ -96,12 +109,24 @@
             <div class="slider__inner-2">
                <div class="slider__inner-thumbnails">
                   <div class="slider__thumbnails">
-                     <div class="slider__thumbnails-item slider__thumbnails-item-1"></div>
-                     <div class="slider__thumbnails-item slider__thumbnails-item-2"></div>
-                     <div class="slider__thumbnails-item slider__thumbnails-item-3"></div>
-                     <div class="slider__thumbnails-item slider__thumbnails-item-4"></div>
-                     <div class="slider__thumbnails-item slider__thumbnails-item-5"></div>
-                     <div class="slider__thumbnails-item slider__thumbnails-item-6"></div>
+                     <div class="slider__thumbnails-item slider__thumbnails-item-1">
+                        <img src="images/thumb-1.jpg" alt="">
+                     </div>
+                     <div class="slider__thumbnails-item slider__thumbnails-item-2">
+                        <img src="images/thumb-2.jpg" alt="">
+                     </div>
+                     <div class="slider__thumbnails-item slider__thumbnails-item-3">
+                        <img src="images/thumb-3.jpg" alt="">
+                     </div>
+                     <div class="slider__thumbnails-item slider__thumbnails-item-4">
+                        <img src="images/thumb-4.jpg" alt="">
+                     </div>
+                     <div class="slider__thumbnails-item slider__thumbnails-item-5">
+                        <img src="images/thumb-5.jpg" alt="">
+                     </div>
+                     <div class="slider__thumbnails-item slider__thumbnails-item-6">
+                        <img src="images/thumb-6.jpg" alt="">
+                     </div>
                   </div>
                </div>
             </div>
@@ -175,7 +200,9 @@
             <div class="resent-works__inner">
                <div class="resent-works__work">
                   <div class="work__image">
-                     <img src="images/work-1.jpg" alt="">
+                     <a href="#">
+                        <img src="images/work-1.jpg" alt="">
+                     </a>
                   </div>
                   <div class="work__text">
                      <div class="work__title"><a href="#">Character  Design</a></div>
@@ -184,7 +211,9 @@
                </div>
                <div class="resent-works__work">
                   <div class="work__image">
-                     <img src="images/work-2.jpg" alt="">
+                     <a href="#">
+                        <img src="images/work-2.jpg" alt="">
+                     </a>
                   </div>
                   <div class="work__text">
                      <div class="work__title"><a href="#">Brochure  Design</a></div>
@@ -193,7 +222,9 @@
                </div>
                <div class="resent-works__work">
                   <div class="work__image">
-                     <img src="images/work-3.jpg" alt="">
+                     <a href="#">
+                        <img src="images/work-3.jpg" alt="">
+                     </a>
                   </div>
                   <div class="work__text">
                      <div class="work__title"><a href="#">Social Media Buttons</a></div>
@@ -202,7 +233,9 @@
                </div>
                <div class="resent-works__work">
                   <div class="work__image">
-                     <img src="images/work-4.jpg" alt="">
+                     <a href="#">
+                        <img src="images/work-4.jpg" alt="">
+                     </a>
                   </div>
                   <div class="work__text">
                      <div class="work__title"><a href="#">10 Amazing Websites</a></div>
@@ -232,15 +265,15 @@
                   <div class="widget__title">Twitter  Widget</div>
                   <div class="widget__text">
                      <div class="text__message">
-                        <p><span>@pixelmater</span> What an awesome design with great functionality :)</p>
+                        <p><a href="#"><span>@pixelmater</span></a> What an awesome design with great functionality :)</p>
                         <p><span class="message__time">about 1 hour ago</span></p>
                      </div>      
                      <div class="text__message">
-                        <p><span>@designdude</span> What an awesome design with great functionality :)</p>
+                        <p><a href="#"><span>@designdude</span></a>What an awesome design with great functionality :)</p>
                         <p><span class="message__time">about 2 hour ago</span></p>
                      </div>
                      <div class="text__message">
-                        <p>Follow <span>@bestpsdfreebies</span></p>
+                        <p>Follow <a href="#"><span>@bestpsdfreebies</span></a></p>
                      </div>
                   </div>
                </div>
@@ -258,11 +291,11 @@
                         <p>1.222.333.4444</p>
                      </div>
                      <div class="contacts__icons">
-                        <img src="images/icons/facebook-icon.png" alt="">
-                        <img src="images/icons/twitter-icon.png" alt="">
-                        <img src="images/icons/email-icon.png" alt="">
-                        <img src="images/icons/rss-icon.png" alt="">
-                        <img src="images/icons/vimeo-icon.png" alt="">
+                        <a href="#"><img src="images/icons/facebook-icon.png" alt=""></a>
+                        <a href="#"><img src="images/icons/twitter-icon.png" alt=""></a>
+                        <a href="#"><img src="images/icons/email-icon.png" alt=""></a>
+                        <a href="#"><img src="images/icons/rss-icon.png" alt=""></a>
+                        <a href="#"><img src="images/icons/vimeo-icon.png" alt=""></a>
                      </div>
                   </div>
                </div>
